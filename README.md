@@ -1,5 +1,3 @@
-# HospitalAppoitmentSystem
-A wxPython desktop app for hospital appointment management with user authentication, patient &amp; doctor dashboards, appointment booking/cancellation using calendar and dynamic time slots, doctor specializations, file-based data storage, registration, logout, and unit testing support.
 # Hospital Appointment Manager
 
 A wxPython desktop app for hospital appointment management. Features user authentication, appointment booking/cancellation with calendar date picker, dynamic time slots, doctor specializations, and persistent file storage.
@@ -26,8 +24,6 @@ A wxPython desktop app for hospital appointment management. Features user authen
 
 - **wxPython**: GUI framework
 - **NumPy**: Data handling
-- **Pillow (PIL)**: Image processing for hospital icon
-- **pytest**: Unit testing
 - **Python 3.x**: Core language
 
 ## Requirements
@@ -35,8 +31,6 @@ A wxPython desktop app for hospital appointment management. Features user authen
 ```
 wxPython
 numpy
-Pillow
-pytest
 ```
 
 ## Installation
@@ -105,12 +99,7 @@ hospital/
 ├── main.py                 # Main application with all GUI frames and logic
 ├── users.txt              # User credentials and doctor specializations
 ├── appointments.txt       # Appointment records
-├── hospital_icon.png      # Application icon (auto-generated)
-├── make_icon.py           # Script to generate the hospital icon
-├── __init__.py            # Package marker for pytest
-└── tests/
-    ├── test_appointments.py  # Unit tests for appointment functions
-    └── test_users.py         # Unit tests for user management
+└── __init__.py            # Package marker
 ```
 
 ## Data Format
@@ -132,14 +121,6 @@ patient_name,doctor_name,YYYY-MM-DD,HH:MM,status
 Example:
 ```
 Raphael,Dr_Swapnil,2025-12-20,14:00,booked
-```
-
-## Running Tests
-
-To run the test suite:
-
-```bash
-pytest tests/
 ```
 
 ## Architecture
