@@ -1,0 +1,4 @@
+patient,Raphael,123
+doctor,Dr_Swapnil,doc789,General
+patient,Veeresh,123
+doctor,Dr_Rajnish,123,Orthopedic
